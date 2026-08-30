@@ -46,6 +46,8 @@ if errorlevel 1 (
 )
 
 :RUN
+rem clear any errorlevel left over from the update check
+ver >nul
 python chest_auto.py
 if errorlevel 1 (
     echo.
