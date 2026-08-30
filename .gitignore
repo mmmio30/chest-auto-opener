@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# 個人の画面座標が入るので公開しない
+chest_config.json
+*.backup.json
